@@ -1,0 +1,67 @@
+.stApp {
+    background: linear-gradient(135deg, #10101e, #17132c, #101827);
+    color: #ffffff;
+}
+
+.block-container {
+    max-width: 850px;
+    padding-top: 2rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 25px 10px;
+    border: 1px solid #343451;
+    border-radius: 22px;
+    background: linear-gradient(135deg, #24213e, #17172b);
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 8px;
+    background: linear-gradient(90deg, #a78bfa, #67e8f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    color: #b8b8d5;
+    font-size: 16px;
+}
+
+div.stButton > button {
+    border-radius: 12px;
+    border: 1px solid #6254a5;
+    background: #292443;
+    color: white;
+    min-height: 45px;
+    transition: 0.2s;
+}
+
+div.stButton > button:hover {
+    border-color: #a78bfa;
+    background: #39305c;
+    color: white;
+}
+
+[data-testid="stChatMessage"] {
+    border: 1px solid #35344f;
+    border-radius: 16px;
+    padding: 14px;
+    background: rgba(35, 33, 58, 0.8);
+}
+
+[data-testid="stChatInput"] {
+    border-color: #6654a3;
+}
+
+section[data-testid="stSidebar"] {
+    background: #151528;
+}
+
+.small-note {
+    text-align: center;
+    color: #9999bb;
+    font-size: 12px;
+}
